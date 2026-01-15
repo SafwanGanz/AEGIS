@@ -43,16 +43,3 @@ The tool outputs unified diffs for files that require improvements:
 - Security fixes (removes dangerous patterns like eval, Function constructor)
 - Replaces synchronous fs operations with async variants
 
-## Architecture
-
-```
-aegis/
-├── bin/              # Executable entry point
-├── core/             # Core functionality
-│   ├── scanner/      # Static AST analysis
-│   ├── ai/           # AI review engine
-│   ├── diff/         # Diff generation
-│   └── config.js     # Configuration
-├── engines/          # Ollama integration
-└── utils/            # File system utilities
-```
