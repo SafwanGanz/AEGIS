@@ -1,0 +1,24 @@
+{
+  "name": "aegis",
+  "version": "1.0.0",
+  "description": "Production-grade offline AI code reviewer CLI tool",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "aegis": "./bin/aegis"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "review": "node cli.js review"
+  },
+  "keywords": ["code-review", "ai", "offline", "ollama"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "diff": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
