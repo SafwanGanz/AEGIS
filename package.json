@@ -9,16 +9,42 @@
   },
   "scripts": {
     "start": "node cli.js",
-    "review": "node cli.js review"
+    "review": "node cli.js review",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": ["code-review", "ai", "offline", "ollama"],
-  "author": "",
+  "keywords": [
+    "code-review",
+    "ai",
+    "offline",
+    "ollama",
+    "cli",
+    "security",
+    "performance"
+  ],
+  "author": "SafwanGanz",
   "license": "MIT",
   "dependencies": {
     "glob": "^10.3.10",
     "diff": "^5.1.0"
   },
+  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "files": [
+    "bin",
+    "core",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "preferGlobal": true
 }
